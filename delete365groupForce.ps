@@ -1,0 +1,11 @@
+# Install-Module AzureAD.Standard.Preview -AllowClobber -Force
+
+# Get-Module -ListAvailable AzureAD*
+
+Import-Module AzureAD.Standard.Preview
+
+Connect-AzureAD
+
+Get-AzureADMSDeletedGroup -SearchString "WEB P7"
+
+Remove-AzureADMSDeletedDirectoryObject -Id 65cd4a28-ab7c-42bb-887c-a3b4b43c8dec
