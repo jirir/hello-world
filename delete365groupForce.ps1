@@ -6,6 +6,6 @@ Import-Module AzureAD.Standard.Preview
 
 Connect-AzureAD
 
-Get-AzureADMSDeletedGroup -SearchString "Vedoucí Odborů"
+Get-AzureADMSDeletedGroup -SearchString "Web P7"
 
-Remove-AzureADMSDeletedDirectoryObject -Id 65cd4a28-ab7c-42bb-887c-a3b4b43c8dec
+Remove-AzureADMSDeletedDirectoryObject -Id 58b147b0-70ee-4a50-92b2-f9b052d0fed0
